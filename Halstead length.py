@@ -1,4 +1,4 @@
-##To calculate Halstead length and volume measures for a given program, we need to identify the following components based on Halstead's software metrics:
+## To calculate Halstead length and volume measures for a given program, we need to identify the following components based on Halstead's software metrics:
 
 n1: Number of distinct operators
 n2: Number of distinct operands
