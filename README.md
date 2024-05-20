@@ -6,7 +6,7 @@ This repository contains a simple Python function to determine the length of the
 
 The function length_of_last_word(s) takes a single argument s, which is a string, and returns the length of the last word in the string. If the string is empty or contains no words, the function returns 0.
 
-## Parameters
+###### Parameters
 
 s (str): The input string from which the length of the last word is to be calculated.
 Returns
