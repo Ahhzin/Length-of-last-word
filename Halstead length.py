@@ -1,4 +1,4 @@
-## To calculate Halstead length and volume measures for a given program, we need to identify the following components based on Halstead's software metrics:
+# To calculate Halstead length and volume measures for a given program, we need to identify the following components based on Halstead's software metrics:
 
 n1: Number of distinct operators
 n2: Number of distinct operands
@@ -31,7 +31,7 @@ split (method)
 "running code" (string)
 There are 9 distinct operands.
 
-##Total Occurrences of Operators (N1):
+## Total Occurrences of Operators (N1):
 def (1)
 = (1)
 . (1)
@@ -42,9 +42,9 @@ len (1)
 [] (1)
 () (5, counting function calls and method call)
 print (3)
-##Total occurrences of operators: 17
+## Total occurrences of operators: 17
 
-##Total Occurrences of Operands (N2):
+## Total Occurrences of Operands (N2):
 length_of_last_word (4, including function definition and calls)
 s (2)
 words (3)
@@ -56,7 +56,7 @@ split (1)
 "running code" (1)
 Total occurrences of operands: 15
 
-##Halstead Metrics Calculations
+## Halstead Metrics Calculations
 1. Program Length(N)
           N = N1+ N2 =17+15 =32
 2.Program Vocabulary(n)
@@ -66,7 +66,7 @@ Total occurrences of operands: 15
               log2(19) =4.2479
            V = 32*4.2479 =135.9328
 
-##Summary
+## Summary
 Halstead Length (N): 32
 Halstead Volume (V): 135.9328
 These values provide an understanding of the program's size and complexity based on Halstead's software metrics.​
