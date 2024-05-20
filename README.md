@@ -1,4 +1,4 @@
-##Length of Last Word
+##Length of Last Word.
 
 This repository contains a simple Python function to determine the length of the last word in a given string. This function is useful for string manipulation and basic text processing tasks.
 
